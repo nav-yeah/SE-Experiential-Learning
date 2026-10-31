@@ -56,6 +56,24 @@ Used Python, Pygame, and an LLM-assisted development workflow to debug and enhan
 
 **Concepts:** Python programming, Pygame, state machines, debugging, time-based logic, adaptive difficulty, and AI-assisted software development.
 
+### Lab 5: Static Code Analysis
+
+Applied static code analysis techniques to evaluate and improve the code quality, maintainability, and security of the **Support Ticket Tracker** project.
+
+**Key Activities:**
+- Analysed the codebase using **Bandit, Flake8, and Pylint** to identify potential security issues, coding standard violations, and code quality concerns.
+- Examined and documented static analysis findings.
+- Applied code improvements based on the identified issues.
+- Compared before-and-after analysis results to assess code quality improvements.
+
+**Key Deliverables:**
+- Static analysis reports and findings.
+- Before-and-after analysis outputs.
+- Documentation of identified issues and improvements.
+- Updated project code and supporting lab documentation.
+
+**Concepts:** Static code analysis, software quality assurance, secure coding practices, linting, code maintainability, technical debt, and automated quality checks.
+
 ## Technologies and Concepts
 
 - UML and software modelling
@@ -64,6 +82,9 @@ Used Python, Pygame, and an LLM-assisted development workflow to debug and enhan
 - Software architecture and design
 - Python and Pygame
 - AI-assisted debugging and development
+- Static code analysis and software quality assurance
+- Bandit, Flake8, and Pylint
+- Secure coding practices and code quality improvement
 
 ## Repository Structure
 
@@ -71,5 +92,6 @@ Used Python, Pygame, and an LLM-assisted development workflow to debug and enhan
 - `Lab2/` — Agile planning and sprint tracking
 - `Lab3/` — Architecture design and justification
 - `Lab4/` — AI-assisted debugging and game enhancement
+- `Lab5/` — Static code analysis, code quality assessment, and improvement
 
 ---
