@@ -74,6 +74,46 @@ Applied static code analysis techniques to evaluate and improve the code quality
 
 **Concepts:** Static code analysis, software quality assurance, secure coding practices, linting, code maintainability, technical debt, and automated quality checks.
 
+### Lab 6: Code Coverage and Branch Coverage Testing
+
+Applied code coverage and branch coverage testing techniques to evaluate the testing effectiveness of the **Restaurant Bill** application.
+
+**Key Activities:**
+- Developed unit test cases for the application's bill calculation, bill splitting, and table waiting functionalities using **pytest**.
+- Measured statement coverage and branch coverage using **Coverage.py**.
+- Designed test cases to exercise different conditional branches, including valid inputs, invalid inputs, and boundary conditions.
+- Analysed coverage reports to identify untested statements and branches.
+
+**Key Deliverables:**
+- `restaurant_bill.py` — Application source code.
+- `CodeCoverageTest_58_application.py` — Code coverage test cases.
+- `BranchCoverageTest_58_application.py` — Branch coverage test cases.
+- Code coverage and branch coverage screenshots.
+
+**Results:**
+- 100% statement coverage.
+- 100% branch coverage (22/22 branches).
+
+**Concepts:** Software testing, unit testing, statement coverage, branch coverage, test adequacy, pytest, and Coverage.py.
+
+### Lab 7: Fuzzing for Input Validation Bugs
+
+Applied property-based testing and fuzz testing techniques to identify and fix input validation bugs in the **Restaurant Bill Parser** application.
+
+**Key Activities:**
+- Used the **Hypothesis** library to automatically generate a wide range of test inputs, including unexpected and invalid values.
+- Tested the robustness of `clean_dish_name()`, `parse_item_prices()`, and `split_amount()` functions.
+- Identified input-handling issues that caused runtime exceptions.
+- Implemented defensive input validation and error handling to prevent unexpected crashes.
+- Re-ran property-based tests to verify the fixes.
+
+**Key Deliverables:**
+- `restaurant_bill_parser.py` — Updated parser with input validation and error handling.
+- `test_restaurant_bill_parser.py` — Hypothesis-based property testing test cases.
+- `SRN_NAME_LAB7.pdf` — Screenshots documenting the testing process and reflection answers.
+
+**Concepts:** Fuzz testing, property-based testing, input validation, defensive programming, exception handling, Hypothesis, and software robustness.
+
 ## Technologies and Concepts
 
 - UML and software modelling
@@ -85,6 +125,11 @@ Applied static code analysis techniques to evaluate and improve the code quality
 - Static code analysis and software quality assurance
 - Bandit, Flake8, and Pylint
 - Secure coding practices and code quality improvement
+- Unit testing and test coverage
+- Statement coverage and branch coverage
+- pytest and Coverage.py
+- Fuzz testing and property-based testing
+- Hypothesis and input validation
 
 ## Repository Structure
 
@@ -93,5 +138,5 @@ Applied static code analysis techniques to evaluate and improve the code quality
 - `Lab3/` — Architecture design and justification
 - `Lab4/` — AI-assisted debugging and game enhancement
 - `Lab5/` — Static code analysis, code quality assessment, and improvement
-
----
+- `Lab6/` — Code coverage and branch coverage testing
+- `Lab7/` — Fuzz testing and input validation using Hypothesis
